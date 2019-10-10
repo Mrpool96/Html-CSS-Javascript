@@ -1,0 +1,47 @@
+<html>
+    <head style="font-size: 160%;"><b><i>JavaScript program to create calci Operation</i></b></style></head><br><br>
+    <p><b>Enter your numbers and select Arithmatic Operation for following:-</b></p>
+    <body>
+        Enter First Number:<br><input type="text" id="text1" name="text1"><br>
+        Enter Second Nunmber:<br><input type="text" id="text2" name="text2"><br>
+        <b><i>Select Arithmatic Operation:</b></i>><br>
+  <input type="submit" name="Select Arithmatic Operation" value="Addition"onClick="add_num()"><br><br>
+  <input type="submit" name="Select Arithmatic Operation" value="Substraction"onClick="sub_num()"><br><br>
+  <input type="submit" name="Select Arithmatic Operation" value="Multiplication"onClick="mul_num()"><br><br>
+  <input type="submit" name="Select Arithmatic Operation" value="Division"onClick="div_num()"><br><br>
+  <br>
+        <br>Result:<input type="text"id="textrslt"name="textrslt">
+        <script>
+            function add_num()
+            {
+                var firstnum=parseInt(document.getElementById("text1").value);
+                var secondnum=parseInt(document.getElementById("text2").value);
+                var result=firstnum+secondnum;
+                document.getElementById("textrslt").value=result;
+            }
+            function sub_num()
+            {
+                var firstnum=parseInt(document.getElementById("text1").value);
+                var secondnum=parseInt(document.getElementById("text2").value);
+                var result=firstnum-secondnum;
+                document.getElementById("textrslt").value=result;
+            }
+            function mul_num()
+            {
+                var firstnum=parseInt(document.getElementById("text1").value);
+                var secondnum=parseInt(document.getElementById("text2").value);
+                var result=firstnum*secondnum;
+                document.getElementById("textrslt").value=result;
+            }
+            function div_num()
+            {
+                var firstnum=parseInt(document.getElementById("text1").value);
+                var secondnum=parseInt(document.getElementById("text2").value);
+                var result=firstnum/secondnum;
+                document.getElementById("textrslt").value=result;
+            }
+            
+        </script>
+    </body> 
+</html>
+
