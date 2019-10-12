@@ -18,4 +18,4 @@ function display(n) {
     console.log(arr); // use arr result on your own
 }
 
-display(10);
+display(20);
