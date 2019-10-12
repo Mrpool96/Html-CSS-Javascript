@@ -1,7 +1,6 @@
 
-function even_odd(){
-    var num;
-    num(document.getElementById("no_input").value);
+function even_odd(num){
+   var num;
     if (num%2==0) {
         console.log("The Number is even number");
         
@@ -10,3 +9,4 @@ function even_odd(){
         
     }
 }
+even_odd(10)
