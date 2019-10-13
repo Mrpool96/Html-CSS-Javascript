@@ -1,7 +1,7 @@
 function NumInWords (number) {
     const first = ['','one ','two ','three ','four ', 'five ','six ','seven ','eight ','nine ','ten ','eleven ','twelve ','thirteen ','fourteen ','fifteen ','sixteen ','seventeen ','eighteen ','nineteen '];
     const tens = ['', '', 'twenty','thirty','forty','fifty', 'sixty','seventy','eighty','ninety'];
-    const mad = ['', 'thousand', 'Lakhs', 'Crores', 'trillion'];
+    const mad = ['', 'thousand', 'Lakhs', 'Crores', 'Trillion'];
     let word = '';
   
     for (let i = 0; i < mad.length; i++) {
