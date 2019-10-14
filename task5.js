@@ -5,7 +5,7 @@ function printTableRange(num){
             console.log(num+ "*" +i+ "=" +num*i);
 
         } 
-        break;
+    
         
     }
     printTableRange(13)
