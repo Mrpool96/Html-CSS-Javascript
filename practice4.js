@@ -20,5 +20,7 @@ function cards(card){
     if(count>0){
         holdbet="bet";
     }
-    return
+    return count+ " "+holdbet;
 }
+cards(2); cards(6); cards('K'); cards('Q'); cards('A');
+console.log(cards(4));
