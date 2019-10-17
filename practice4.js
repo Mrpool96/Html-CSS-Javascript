@@ -6,7 +6,19 @@ function cards(card){
         case 4: 
         case 5:
         case 6:
-            count++
-
+            count++;
+            break;
+            case 10:
+            case 'A':
+            case 'K':
+            case 'Q': 
+            case 'J':
+                count--;
+                break;
     }
+    var holdbet="hold";
+    if(count>0){
+        holdbet="bet";
+    }
+    return
 }
