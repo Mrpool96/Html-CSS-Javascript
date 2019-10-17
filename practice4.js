@@ -23,4 +23,4 @@ function cards(card){
     return count+ " "+holdbet;
 }
 cards(2); cards(6); cards('K'); cards('Q'); cards('A');
-console.log(cards(4));
+console.log(cards(6));
