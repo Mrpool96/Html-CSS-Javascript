@@ -1,0 +1,21 @@
+.para{
+    color:lightblue;
+    background-color: lightyellow;
+}
+.table{
+
+width:100%;
+}
+th,td,tr{
+
+    padding:15px;
+    border:1px solid black;
+    background-color: #ccf5ff;
+    text-align: center;
+
+}
+.head{
+    text-align: center;
+    padding: 1px;
+    border:1px solid burlywood;
+}
