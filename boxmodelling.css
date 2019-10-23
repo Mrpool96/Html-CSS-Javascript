@@ -1,0 +1,18 @@
+h1{
+    border:10px;
+    text-align:center;
+    text-transform:capitalize;
+    background:grey;
+    border-color:black;
+    padding:10px;
+    margin:10px;
+}
+h2{
+    text-align:center;
+    text-transform:uppercase;
+    background:red;
+    padding:5px;
+    margin-left:50px;
+    margin-right:50px;
+    
+}
